@@ -11,17 +11,23 @@ window:
 # Font configuration
 font:
   normal:
-    family: JetBrainsMono Nerd Font
-    style: Regular
+    # family: MonoLisa Trial
+    # style: Regular
+    # family: JetBrainsMono Nerd Font
+    # style: Regular
+    # family: MesloLGS Nerd Font
+    family: FiraCode Nerd Font
+    style: Retina
   size: 13
   offset:
    x: 0
-   y: 1
+   y: 2
 
 import:
   # - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
   # - ~/.config/alacritty/onedark.yml
-  - ~/.config/alacritty/melange.yml
+  # - ~/.config/alacritty/melange-dark.yml
+  - ~/.config/alacritty/melange-light.yml
 
 key_bindings:
   - { key: Period, mods: Control, chars: "\x1b[46;5u" }
