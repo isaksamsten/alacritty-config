@@ -1,3 +1,11 @@
+# shell:
+#   program: /opt/homebrew/bin/tmux
+#   args:
+#     - new-session
+#     - -A
+#     - -D
+#     - -s
+#     - main
 window:
   padding:
     x: 2
@@ -14,6 +22,7 @@ font:
     # family: MonoLisa Trial
     # style: Regular
     family: JetBrainsMono Nerd Font
+    # family: IosevkaJB Nerd Font
     style: Regular
     # family: MesloLGS Nerd Font
     # family: MonaspiceNe NF
@@ -29,8 +38,13 @@ font:
 import:
   # - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
   # - ~/.config/alacritty/onedark.yml
-    - ~/.config/alacritty/melange-dark.yml
+    # - ~/.config/alacritty/melange-dark.ym<LeftMouse>
 #    - ~/.config/alacritty/melange-light.yml
+#  - ~/.config/alacritty/dragon-dark.yml
+  - ~/.config/alacritty/dragon-light.yml
+
+mouse:
+    hide_when_typing: true
 
 key_bindings:
   - { key: Period, mods: Control, chars: "\x1b[46;5u" }
