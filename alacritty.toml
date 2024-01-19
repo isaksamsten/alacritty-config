@@ -1,0 +1,173 @@
+# import = ["/Users/isaksamsten/.config/alacritty/dragon-light.toml"]
+import = ["/Users/isaksamsten/.config/alacritty/dragon-dark.toml"]
+
+[font]
+size = 13.5
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+# [font.normal]
+# family = "JetBrainsMono Nerd Font"
+# style = "Regular"
+
+[font.normal]
+family = "SFMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "SFMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "SFMono Nerd Font"
+style = "Medium Italic"
+
+[font.offset]
+x = 0
+y = 1
+
+[[keyboard.bindings]]
+chars = "\u001B[46;5u"
+key = "Period"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[44;5u"
+key = "Comma"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[59;5u"
+key = "Semicolon"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[13;2u"
+key = "Return"
+mods = "Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[13;5u"
+key = "Return"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0063"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0078"
+key = "W"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0073"
+key = "D"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0076"
+key = "D"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0031"
+key = "Key1"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0032"
+key = "Key2"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0033"
+key = "Key3"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0034"
+key = "Key4"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0035"
+key = "Key5"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0036"
+key = "Key6"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0037"
+key = "Key7"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0038"
+key = "Key8"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0039"
+key = "Key9"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0048"
+key = "Left"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u004a"
+key = "Down"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u004b"
+key = "Up"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u004c"
+key = "Right"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u0068"
+key = "H"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u006a"
+key = "J"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u006b"
+key = "K"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u006c"
+key = "L"
+mods = "Command"
+
+[mouse]
+hide_when_typing = false
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+dynamic_title = true
+opacity = 1.0
+option_as_alt = "OnlyLeft"
+
+[window.padding]
+x = 2
+y = 4
