@@ -1,5 +1,5 @@
 [colors.bright]
-black = "0x393836"
+black = "0x1c1c1b"
 blue = "0x7fb4ca"
 cyan = "0x7aa89f"
 green = "0x87a987"
@@ -12,7 +12,7 @@ yellow = "0xdca561"
 cursor = "0xc5c9c5"
 
 [colors.normal]
-black = "0x0d0c0c"
+black = "0x000000"
 blue = "0x8ba4b0"
 cyan = "0x8ea4a2"
 green = "0x8a9a7b"
@@ -22,5 +22,5 @@ white = "0xb4b3a7"
 yellow = "0xd2b788"
 
 [colors.primary]
-background = "0x181616"
+background = "0x000000"
 foreground = "0xc5c9c5"
