@@ -13,7 +13,7 @@ window:
 
   dynamic_padding: false
   dynamic_title: true
-  decorations: transparent
+  decorations: full
   opacity: 1.0
   option_as_alt: OnlyLeft
 
@@ -22,7 +22,8 @@ font:
   normal:
     # family: MonoLisa Trial
     # style: Regular
-    family: JetBrainsMono Nerd Font
+    # family: JetBrainsMono Nerd Font
+    family: Meslo LG S
     # family: IosevkaJB Nerd Font
     style: Regular
     # family: MesloLGS Nerd Font

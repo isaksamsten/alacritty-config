@@ -5,11 +5,11 @@ cyan = "0x7aa89f"
 green = "0x87a987"
 magenta = "0x938aa9"
 red = "0xe46876"
-white = "0xb4b8b4"
+white = "0xc5c9c5"
 yellow = "0xdca561"
 
 [colors.cursor]
-cursor = "0xb4b8b4"
+cursor = "0xc5c9c5"
 
 [colors.normal]
 black = "0x0d0c0c"
@@ -23,4 +23,4 @@ yellow = "0xd2b788"
 
 [colors.primary]
 background = "0x181616"
-foreground = "0xb4b8b4"
+foreground = "0xc5c9c5"
