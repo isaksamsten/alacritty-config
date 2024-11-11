@@ -1,5 +1,5 @@
 [colors.bright]
-black = "#A98A78"
+black = "#c7beb6"
 blue = "#465AA4"
 cyan = "#3D6568"
 green = "#3A684A"
@@ -21,3 +21,6 @@ yellow = "#BC5C00"
 [colors.primary]
 background = "#F1F1F1"
 foreground = "#54433A"
+
+[colors.cursor]
+cursor = "#54433A"
